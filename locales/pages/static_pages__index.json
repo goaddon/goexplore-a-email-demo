@@ -1,0 +1,13 @@
+{
+  "en": {
+    "title": "Email demo",
+    "headline": "Welcome",
+    "explainer": {
+      "p1": "This is a demo task manager. The goal is to demonstrate how to send emails.",
+      "p2": "Simply sign up for an account and try creating a few tasks for yourself. You should receive an email for each task you create.",
+      "p3": "This demo is based on the",
+      "p4": "goexplore-a-email-demo",
+      "p5": "repository."
+    }
+  }
+}

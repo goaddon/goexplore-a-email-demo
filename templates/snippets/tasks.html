@@ -1,0 +1,10 @@
+<h5 class="mb-3">{{ l.headline }}</h5>
+<form data-id="create_task" action="{{ 'tasks__create' | path_for: format: 'js' }}" method="post" data-remote="true">
+  <div class="input-group">
+    <input class="form-control" type="text" name="name" placeholder="{{ l.placeholders.name }}">
+    <button class="btn btn-outline-primary" type="submit">
+      <i class="fas fa-paper-plane"></i>
+      {{ l.buttons.create }}
+    </button>
+  </div>
+</form>

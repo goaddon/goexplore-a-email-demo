@@ -1,0 +1,6 @@
+{% if account != nil %}
+
+  {% assign send_result = "new_task" | send_email: to: user.email, display_name: "Your email demo", task: params.name %}
+
+  flashAlert("success", "{{ l.created }}");
+{% endif %}
